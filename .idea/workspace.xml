@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a6026f2-d2ba-40cf-9fe3-10b3a2c03dea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bank2/bank2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank2/src/main/java/com/herobin/scd/Bank2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/herobin/scd/ConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/herobin/scd/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/configfile/config-info-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/configfile/config-info-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/configfile/config-info-test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank1/src/main/java/com/herobin/scd/Bank1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank1/src/main/java/com/herobin/scd/Bank1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bank1/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank1/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bank1/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank1/target/classes/com/herobin/scd/Bank1Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/bank1/target/classes/com/herobin/scd/Bank1Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/config-info-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/config-info-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/config-info-test.yml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,18 +27,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="144">
+              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/configfile/config-info-dev.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/src/main/resources/configfile/config-info-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/src/main/resources/configfile/config-info-test.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/src/main/java/com/herobin/scd/ConfigApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/src/main/resources/configfile/config-info-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -64,6 +87,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>eureka</find>
+      <find>profile</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -93,6 +117,9 @@
         <option value="$PROJECT_DIR$/user/src/main/java/com/herobin/scd/UserApplication.java" />
         <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/config/src/main/java/com/herobin/scd/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/config-info-dev.yml" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/config-info-prod.yml" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/config-info-test.yml" />
         <option value="$PROJECT_DIR$/config/src/main/resources/application.yml" />
       </list>
     </option>
@@ -182,12 +209,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/src/main/resources/configfile" />
+      <recent name="$PROJECT_DIR$/config/src/main/resources" />
       <recent name="$PROJECT_DIR$/config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.herobin.scd" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/configfile" />
       <recent name="$PROJECT_DIR$/user/src/main/resources" />
       <recent name="$PROJECT_DIR$/bank2/src/main/resources" />
       <recent name="$PROJECT_DIR$/eureka/src/main/resources" />
@@ -206,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Bank1Application">
+  <component name="RunManager" selected="Spring Boot.ConfigApplication">
     <configuration name="Bank1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bank1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.herobin.scd.Bank1Application" />
@@ -217,6 +247,19 @@
     <configuration name="Bank2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bank2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.herobin.scd.Bank2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herobin.scd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.herobin.scd.ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,6 +286,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
@@ -258,7 +302,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573008714123</updated>
       <workItem from="1573008720343" duration="7668000" />
-      <workItem from="1573020214502" duration="3303000" />
+      <workItem from="1573020214502" duration="4672000" />
     </task>
     <task id="LOCAL-00001" summary="update README.md">
       <created>1573021048337</created>
@@ -267,14 +311,29 @@
       <option name="project" value="LOCAL" />
       <updated>1573021048337</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add new module">
+      <created>1573027199031</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573027199033</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add new module">
+      <created>1573027693803</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573027693803</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10971000" />
+    <option name="totallyTimeSpent" value="12340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -311,7 +370,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="add new module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new module" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scd-eureka/src/main/resources/application.yml">
@@ -444,20 +504,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/configfile/config-info-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/configfile/config-info-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/src/main/java/com/herobin/scd/ConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/configfile/config-info-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="144">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,4 @@
+cn:
+  springcloud:
+    book:
+      config: I am the test environment

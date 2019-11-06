@@ -3,3 +3,11 @@ spring:
     config:
       server:
         git:
+          uri: https://github.com/zhangbin1995/SpringCloudDemo.git
+          username: herobin1995@163.com
+          password: zxc008100463
+          search-paths: config/src/main/resources/configfile/
+  application:
+    name: config
+server:
+  port: 9090
