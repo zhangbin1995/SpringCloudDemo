@@ -9,11 +9,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @author binzhang
  * @date 2019-11-06
  */
-@EnableSwagger2
 @SpringBootApplication
 @EnableDiscoveryClient
-public class Bank1Application {
+@EnableSwagger2
+public class Bank2Application {
     public static void main(String[] args) {
-        SpringApplication.run(Bank1Application.class, args);
+        SpringApplication.run(Bank2Application.class, args);
     }
 }

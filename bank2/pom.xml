@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>bank1</artifactId>
+    <artifactId>bank2</artifactId>
 
     <dependencies>
         <dependency>
@@ -33,7 +33,6 @@
             <version>2.9.2</version>
         </dependency>
         <!--引入Swagger2依赖——结束 -->
-
     </dependencies>
 
     <!--

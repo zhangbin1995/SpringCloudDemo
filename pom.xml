@@ -10,6 +10,9 @@
     <modules>
         <module>bank1</module>
         <module>eureka</module>
+        <module>bank2</module>
+        <module>user</module>
+        <module>config</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -35,6 +38,17 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!--引入Swagger2依赖——开始 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+        <!--引入Swagger2依赖——结束 -->
+
     </dependencies>
 
     <dependencyManagement>
