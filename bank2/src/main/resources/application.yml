@@ -2,7 +2,7 @@ server:
   port: 8083
 spring:
   application:
-    name: bank2
+    name: bank1
 eureka:
   client:
     service-url:
