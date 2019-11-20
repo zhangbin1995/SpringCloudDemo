@@ -12,30 +12,10 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class AuthServerApplication extends WebSecurityConfigurerAdapter {
+public class AuthServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AuthServerApplication.class, args);
 	}
-	
-    @Bean(name = BeanIds.AUTHENTICATION_MANAGER)
-    @Override
-    public AuthenticationManager authenticationManagerBean() throws Exception {
-        return super.authenticationManagerBean();
-    }
 
-    @Override
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        System.out.println("============guest=====admin============");
-        auth
-        .inMemoryAuthentication()
-        .withUser("guest").password("guest").authorities("WRIGTH_READ")
-        .and()
-        .withUser("admin").password("admin").authorities("WRIGTH_READ", "WRIGTH_WRITE");
-    }
-    
-    @Bean
-    public static NoOpPasswordEncoder passwordEncoder() {
-      return (NoOpPasswordEncoder) NoOpPasswordEncoder.getInstance();
-    }
 }

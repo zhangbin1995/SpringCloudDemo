@@ -1,0 +1,71 @@
+version: '3'
+
+services:
+  eureka-server:
+    image: eureka-server:latest
+    ports:
+      - 8761:8761
+
+  zuul-server:
+    image: zuul-server:latest
+    ports:
+      - 5555:5555
+    command:
+      - "--eureka.address=192.168.2.233"
+
+  config-server:
+    image: config-server:latest
+    ports:
+      - 9090:9090
+    command:
+      - "--eureka.address=192.168.2.233"
+
+  user-server:
+    image: user-server:latest
+    command:
+      - "--eureka.address=192.168.2.233"
+      - "--mysql.address=101.132.138.185"
+
+  auth-server:
+    image: auth-server:latest
+    command:
+      - "--eureka.address=192.168.2.233"
+      - "--mysql.address=101.132.138.185"
+
+  bank1-server:
+    image: bank1-server:latest
+    command:
+      - "--eureka.address=192.168.2.233"
+      - "--mysql.address=101.132.138.185"
+
+  bank2-server:
+    image: bank2-server:latest
+    command:
+      - "--eureka.address=192.168.2.233"
+      - "--mysql.address=101.132.138.185"
+
+
+
+#  course-dubbo-service:
+#    image: course-dubbo-service:latest
+#    links:
+#      - user-thrift-service
+#    command:
+#      - "--mysql.address=192.168.1.130"
+#      - "--zookeeper.address=192.168.1.130"
+#
+#  course-edge-service:
+#    image: course-edge-service:latest
+#    links:
+#      - user-edge-service
+#    command:
+#      - "--zookeeper.address=192.168.1.130"
+#
+#
+#  gataway-zuul:
+#    image: gataway-zuul:latest
+#    links:
+#      - user-edge-service
+#      - course-edge-service
+#    ports:
+#      - 8080:8080

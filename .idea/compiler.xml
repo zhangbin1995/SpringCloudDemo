@@ -15,9 +15,6 @@
         <module name="zuul" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="scd-eureka" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -26,7 +23,6 @@
       <module name="bank2" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="eureka" options="-parameters" />
-      <module name="scd-eureka" options="-parameters" />
       <module name="user" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>

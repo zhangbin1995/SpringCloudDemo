@@ -1,9 +1,39 @@
 server:
   port: 8081
+
 spring:
   application:
     name: user
+  datasource:
+#    url: jdbc:log4jdbc:mysql://101.132.138.185:3306/user?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    url: jdbc:log4jdbc:mysql://101.132.138.185:3306/user?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: zhangbin
+    password: 1234
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: net.sf.log4jdbc.DriverSpy # com.mysql.cj.jdbc.Driver
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+    jpa:
+      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://192.168.2.233:8761/eureka/
+
+

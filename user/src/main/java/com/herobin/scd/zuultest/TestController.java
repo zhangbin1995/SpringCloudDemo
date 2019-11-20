@@ -1,6 +1,7 @@
 package com.herobin.scd.zuultest;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -13,5 +14,10 @@ public class TestController {
     @GetMapping("/add")
     public Integer add(Integer a, Integer b) {
         return a + b;
+    }
+
+    @PostMapping("/test")
+    public String test() {
+        return "test success";
     }
 }
